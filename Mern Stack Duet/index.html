@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day6</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <style>
+       
+        /* .form{
+            background: rgba(61, 125, 199, 0.863);
+            padding: 100px;
+            border-radius: 100px;
+        }
+        .form-control{
+            border-radius: 10px;
+            border: 5px solid rgb(45, 102, 167);
+        }
+        .form-control:hover{
+            border: 5px solid rgb(38, 226, 240);
+        }
+        button{
+            margin-left: 0%;
+        }
+        #center{
+            margin-left: 40%;
+        } */
+        /* .flex{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .flex-item{
+            border: 2px double rgb(6, 6, 20);
+            background: #338cdf;
+            text-align: center;
+            font-size: larger;
+        } */
+/*     
+        .flex{
+            display: flex; 
+      
+        justify-content: space-between;
+        }
+
+        .flex-item{
+            border: 2px solid rgb(123, 95, 160);
+            background-color: rgb(211, 31, 142);
+            padding: 5px;
+            text-align: center;
+
+        }.flex-item1{
+            border: 2px solid rgb(123, 95, 160);
+            background-color: rgb(211, 31, 142);
+            padding: 5px;
+            text-align: center;
+        }
+
+    .Fantasstic{
+        display: flex;
+        border: 5px double rosybrown;
+        margin: 20px;
+        justify-content: space-around;
+    }
+
+    .fan{
+        border: 3px solid plum;
+        background-color: aliceblue;
+        padding: 15px;  
+        display: flex;
+       align-items: center;
+
+
+    } */
+
+
+
+
+    </style>
+</head>
+<body class="container mt-5">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav> 
+<br>
+<br>
+<br>
+<br>
+   <!-- <form class="form container"> -->
+    <!-- slider -->
+    <!-- <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.unsplash.com/photo-1490730141103-6cac27aaab94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJlZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://media.istockphoto.com/id/1442179368/photo/maldives-island.webp?b=1&s=170667a&w=0&k=20&c=i8wK-BoIq_B365rf0oMRBNmuMc4U1zlTUllMuyr_QNw=" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1536782376847-5c9d14d97cc0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZnJlZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> <br> -->
+      <!-- form -->
+    <!-- <h2 class="text-center">Sign Up</h2> <br>
+    <input type="email" placeholder="enter email" required class="form-control">
+    <br>
+   
+    <input type="password" placeholder="enter password" required class="form-control">
+    <br>
+    <textarea class="form-control"></textarea> <br>
+    <button class="btn btn-primary " id="center">Sign UP</button>
+
+   </form> -->
+  <!-- <div class="flex">
+    <div class="flex-item1">APPLE</div>
+    <div class="flex-item">BALL 2</div>
+    <div class="flex-item">CAT</div>
+  </div>
+
+<div class="Fantasstic">
+
+    <div class="fan" style="order: 4;">fan1</div>
+    <div class="fan" style="order: 6;">fan2</div>
+    <div class="fan">fan3</div>
+    <div class="fan">fan4</div>
+    <div class="fan">fan5</div>
+    <div class="fan">fan6</div>
+    <div class="fan" style="order: 5;">fan7</div>
+    <div class="fan"style="order: 8;">fan8</div>
+
+
+
+</div> -->
+
+
+
+
+
+
+
+</body>
+
+
+</html>
+
+
+
