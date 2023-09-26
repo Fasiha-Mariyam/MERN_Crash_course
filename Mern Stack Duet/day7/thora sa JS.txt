@@ -1,0 +1,3 @@
+onkeydown:when click any keyboard key
+debugger:
+javascript is losely type language - which shows error on run time rather than while compiling it.
