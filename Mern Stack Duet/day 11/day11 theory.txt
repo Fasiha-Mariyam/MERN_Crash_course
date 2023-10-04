@@ -1,0 +1,18 @@
+*JSON format means object form
+*synchronous(complete one task at a time here 2nd task depend upon 1st task) or asynchronous(does not depend upon 1st task it works parallel )
+*event loop (baat mai batayegain)
+*Sync is a single-thread, so only one operation or program will run at a time. Async is non-blocking, which means it will send multiple requests to a server. 
+Sync is blocking — it will only send the server one request at a time and wait for that request to be answered by the server.
+
+{block scope} => are block scope of JS
+function{function scope}
+out of braces global scope => all scope can be accessable {{func_scope} {block_scope} all are under it}
+Lexical scoping => var declared outside func but connected to func like let a but uses a in function and defined anywhere
+let,const are block scope they are not accessable in other block + destroyed in block after use it
+let could be changed (only value can changed)
+var is global scope
+primitive(stores value like number,string,boolean,symbols,)  and non-premitive(stores refrence like obj,array)
+deep copy () vs shellow copy (change value)
+
+
+this keyword within arrow func
