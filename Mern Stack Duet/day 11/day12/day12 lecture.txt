@@ -1,0 +1,13 @@
+jQuery => short js code ex document.getElementById to just ${#idNAme}
+template litrals are backticks
+function store in variable is higher order function also arrow function
+
+variable without var it defaultly consider it var
+interface and abstraction and polymorphism in oop (read for interview )
+repositary pattern
+
+await to wait for api response 
+async await sath sath sath sath 
+promise => resolve , reject , pending
+
+call back => iskai response mai dosra function chalaoga execute of other function basis
