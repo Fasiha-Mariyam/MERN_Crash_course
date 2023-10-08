@@ -1,0 +1,7 @@
+filter => use to filter specific data from array gives new Array
+filter return array but find return only one record
+
+beppal compiler changes es5 ,6 code to under compiler which js version u using 
+REACT START:
+index.html ==>> only use for rending
+index.js => get root through id and send app and all to index.html to render like root.render
